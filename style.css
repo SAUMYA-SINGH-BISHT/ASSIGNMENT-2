@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .main{
+   background-image: url("https://thumbs.dreamstime.com/z/line-paper-clipping-path-502862.jpg");
+   background-repeat: no-repeat;
+} */
+.header {
+    background-color:rgb(201, 161, 161);
+    top:0px;
+    font-size:30px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    border: 3px black;
+    padding: 10px;
+    position: sticky;
+}
+.header:nth-of-type(1)
+{
+
+    background-color: darkseagreen;
+}
+.header:nth-last-of-type(1)
+{
+    background-color: deeppink;
+}
+ul{
+    list-style: none;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto 50px;
+    line-height: 3;
+    text-align: center;
+    font-family: cursive;
+}
+
+li::before {
+    content:"\1F4DE"
+}
+h1 {
+    text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  font-family: cursive;
+    height: 80px;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1499159058454-75067059248a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVsZXBob25lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-attachment: fixed;
+}
+
